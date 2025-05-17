@@ -79,17 +79,17 @@ window.onload = () => {
   const month = String(date.getMonth() + 1).padStart(2, '0');
   const year = date.getFullYear();
 
-  if(day == "22")
+  if(day == "17")
   {
     //mes aniversario
     document.getElementById("title-alert").innerHTML = "Feliz mes aniversario nro " + date_difference_in_months(new Date("2025-04-17"), new Date());
 
-    if(month == "9")
+    if(month == "4")
     {
       //aniversario
       document.getElementById("title-alert").innerHTML = "Feliz aniversario nro " + date_difference_in_years(new Date("2025-04-17"), new Date());
     }
-    if(day + "/" + month + "/" + year == "22/10/2023")
+    if(day + "/" + month + "/" + year == "17/4/2025")
     {
       document.getElementById("title-alert").innerHTML = "Feliz primer mes";
     }
